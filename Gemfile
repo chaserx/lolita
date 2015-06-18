@@ -1,12 +1,9 @@
 source "https://rubygems.org"
 
 gem "lita"
-
-# Uncomment to use the HipChat adapter
-# gem "lita-hipchat"
-
-# Uncomment to use the IRC adapter
-# gem "lita-irc"
+gem "lita-slack"
+gem 'lita-ext', git: 'git@github.com:MrJoy/lita-ext.git' # makes more railsish with envs
+gem 'dotenv', '~> 2.0.1'
 
 # Add handlers to give Lita new functionality.
 # For example:
